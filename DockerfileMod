@@ -147,9 +147,9 @@ RUN bash -x /src/build.sh \
       --enable-libass \
       --enable-libzimg \
       --disable-encoders \
-      --enable-encoder=vp8,vp9,aac,libvorbis,libmp3lame,libwebp,png,bmp,gif,mjpeg \
+      --enable-encoder=libvpx,libwebp,png,bmp,gif,mjpeg \
       --disable-decoders \
-      --enable-decoder=vp8,vp9,aac,vorbis,mp3,webp,png,bmp,gif,mjpeg \
+      --enable-decoder=libvpx,webp,png,bmp,gif,mjpeg \
       --disable-sdl2 \
       --disable-devices
 
