@@ -146,10 +146,6 @@ RUN bash -x /src/build.sh \
       --enable-libfribidi \
       --enable-libass \
       --enable-libzimg \
-      --disable-encoders \
-      --enable-encoder=libvpx,libwebp,png,bmp,gif,mjpeg \
-      --disable-decoders \
-      --enable-decoder=libvpx,webp,png,bmp,gif,mjpeg \
       --disable-sdl2 \
       --disable-devices
 
